@@ -38,7 +38,16 @@ button {
   background-color: red;
 }
 
-
+.btn-instalar {
+  background-color: #27ae60;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 80%;
+  cursor: pointer;
+}
 
 .oculto {
   display: none !important;
