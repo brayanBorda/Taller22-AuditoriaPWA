@@ -56,12 +56,14 @@ button {
 
 .seleccion-avatar {
   width: 150px;
+  height: 150px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
   border: 5px solid #ecf0f1;
+  object-fit: cover;
   position: relative; 
 }
 
