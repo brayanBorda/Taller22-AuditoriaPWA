@@ -12,14 +12,8 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,300&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome con media trick para no bloquear -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css"></noscript>
-
-    <!-- Animate.css diferido -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"></noscript>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css">
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="js/libs/plugins/mdtoast.min.css">
 
@@ -115,7 +109,7 @@
             <!-- Fin de boton de notificaciones -->
 
             <div>
-                <img data-user="spiderman" src="img/avatars/spiderman.jpg" alt="spiderman" class="seleccion-avatar">
+                <img data-user="spiderman" src="img/avatars/spiderman.jpg" alt="spiderman" class="seleccion-avatar" fetchpriority="high">
             </div>
 
             <div>
@@ -190,6 +184,8 @@
         <!-- Camara Class -->
         <script src="js/camara-class.js"></script>
         <script src="js/app.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
     
 </body>
 </html>
