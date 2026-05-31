@@ -1,4 +1,12 @@
+build/
+coverage/
+npm-debug.log
 
+package-lock.json
 
-#Ignore vscode AI rules
-.github\instructions\codacy.instructions.md
+node_modules/
+.DS_Store
+.idea/
+*.iml
+*.pem
+*.zip
